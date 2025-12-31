@@ -57,6 +57,9 @@
 
 
 
+
+
+
 // USeing TRicky THings
 
 // let a = 4;
@@ -66,6 +69,46 @@
 // console.log("4" *  8);  // 32;
 
 // console.log("Ram" - 3)  // NaN;
+
+
+
+
+
+
+
+
+// SOme Map Functions
+
+// let a = [2,4,5,7,8];
+
+// console.log(a);
+
+// let b = a.map(function(ele){
+//     return ele*ele;
+// });
+// console.log(b);
+
+// New method to call function.
+
+// let a = [2,4,5,7,8];
+// console.log(a);
+// a=a.map(ele => ele*2);
+// console.log(a);
+
+
+
+// // How we get value Undefine..and NUll Value.
+// // let a;
+// let b = " ";
+// let  c ;
+// console.log(b) // NUll
+// console.log(typeof b);  // String
+// console.log(typeof c);  // undefine.
+// // // console.log(a);  // undefine
+
+
+
+
 
 
 
