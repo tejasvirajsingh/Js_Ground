@@ -5,3 +5,5 @@ let x = null;          // Null
 let y;                 // Undefined
 let id = Symbol("id"); // Symbol
 let big = 123n;        // BigInt
+
+
