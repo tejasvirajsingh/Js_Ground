@@ -108,6 +108,13 @@
 
 
 
+// To Convert String into NUmber.
+
+let str = "32";
+
+let num = Number(str);
+ 
+console.log(num, typeof num);  // 32 number
 
 
 
