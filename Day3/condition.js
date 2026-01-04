@@ -66,3 +66,6 @@ console.log("Student Marks:");
 for (let k = 0; k < marks.length; k++) {
     console.log(`Mark ${k + 1}: ${marks[k]}`);
 }
+
+
+// what is conditional statments.
