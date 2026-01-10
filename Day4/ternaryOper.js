@@ -15,5 +15,5 @@ Example:
 
 age > 18 ? "Eligible" : "Not Eligible"
 
-
+Now complete the day 4..
 */
