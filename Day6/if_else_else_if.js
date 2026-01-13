@@ -1,4 +1,4 @@
-let score = 89;
+let score = 9;
 
 
 if(score>= 90 && score<=100){
@@ -13,7 +13,7 @@ console.log("Grade A: " + score)
 } else if(score>= 60 && score<= 69){
     console.log("Passed: " + score)
 } 
-else if(score => 0  && score <= 59)
+else (score => 0  && score < 60)
 {
     console.log("Fail . You Need to Study Hard: " + score)
 }
