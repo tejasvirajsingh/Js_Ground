@@ -65,4 +65,21 @@ let b = [5,44,65,"Ram", 8];
 // console.log(JSON.stringify(result));
 // // > [3,45,3,6,2,66,7,9,5,44,65,"Ram",8]
 
+ 
 
+
+
+
+
+
+
+
+
+
+// Using Double and single String Quotes. "" , ' '
+
+let mr = 'How are you ?';
+let max = "I'm fine. And what about you.";
+ 
+
+console.log(` ${mr}, "Max:" ${max}`);  //  How are you ?, "Max:" I'm fine. And what about you.
