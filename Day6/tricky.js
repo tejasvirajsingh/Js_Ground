@@ -27,3 +27,40 @@
 // Checking array adding between clg..
 
 // console.log([2,3] + [5,6]);
+
+
+
+
+
+
+
+
+// if i have to sort the array ..
+
+// let arr = [ 4,5,7,3,6,2].sort();
+
+// console.log(arr);
+
+
+// when using spread operator 
+
+let a = [3,45,3,6,2,66,7,9];
+let b = [5,44,65,"Ram", 8];
+
+let result = [...a,...b];
+console.log(result);
+
+// suppose i have to find length of array then use.
+console.log(result.length); // >13.
+// suppose i have to display only index [5] thne
+console.log(result[5]);  // > 66
+
+
+// when i have to convert into string.
+console.log(result.join(" ,"));
+// > 3, 45, 3, 6, 2, 66, 7, 9, 5, 44, 65, Ram, 8
+
+
+// or Making in JSON format
+console.log(JSON.stringify(result));
+// > [3,45,3,6,2,66,7,9,5,44,65,"Ram",8]
