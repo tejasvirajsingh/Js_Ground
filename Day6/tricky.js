@@ -86,10 +86,16 @@
 
 
 
+
+
+
+
+// Set Timer for print words.
+
 console.log("How are You ?");
 
-setTimeout(() => {
-  console.log("I'm fine mr max."); // >  after 3 sec give > I'm fine mr max.
+  setTimeout(() => {
+     console.log("I'm fine mr max."); // >  after 3 sec give > I'm fine mr max.
   console.log("good")  ;
 }, 3000);
 
