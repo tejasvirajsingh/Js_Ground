@@ -1,13 +1,15 @@
-// const fs = require('fs');
+const fs = require('fs');
+const path = require("path");
 
-// // fs.readFile("hello.txt" , "utf-8" , (err, data) =>{
-// //     if(err){
-// //         console.log("Error : " , err);
+const filePath = path.join(__dirname, "hello.txt");
 
-// //     }else{
-// //         console.log(data);
-// //     }
-// // });
+fs.readFile(filePath, "utf-8", (err, data) => {
+  if (err) {
+    console.log("Error:", err);
+  } else {
+    console.log(data);
+  }
+});
 
 
 
@@ -19,4 +21,4 @@
 //     }
 // })
 
-console.log([] == ![]);  // True.
+// console.log([] == ![]);  // True.
