@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 const path = require("path");
 
 const filePath = path.join(__dirname, "hello.txt");
@@ -10,8 +10,6 @@ fs.readFile(filePath, "utf-8", (err, data) => {
     console.log(data);
   }
 });
-
-
 
 // fs.mkdir("Coders", (err)=>{
 //     if(err){

@@ -1,2 +1,3 @@
-Hello i am mr max
-SO the Mr max is Developer
+Windows_NT
+x64
+Max
